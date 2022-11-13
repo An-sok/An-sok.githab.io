@@ -1,0 +1,1010 @@
+@charset "UTF-8";
+/* line 1, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/style.sass */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 1, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+header {
+  position: relative;
+}
+
+/* line 4, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 8, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 11, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 17, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  text-decoration: none;
+}
+
+/* line 23, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 40px;
+}
+
+/* line 26, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.menu .menu_item:last-child {
+  border-right: none;
+}
+
+/* line 30, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 35, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  margin-top: 16px;
+  max-width: 100%;
+}
+
+/* line 39, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.subheader_official {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* line 45, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.subheader_call {
+  margin-top: 18px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+}
+
+/* line 51, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* line 62, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 5px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 79, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.promo {
+  min-height: 799px;
+  background: url("../maket/Teil-1/background_menu3.png") center center/cover no-repeat;
+  padding: 151px 0 135px 0;
+}
+
+/* line 83, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.promo_header {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* line 89, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.promo_subheader {
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* line 95, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.promo_descr {
+  margin-top: 23px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 102, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 118px;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  border-radius: 5px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 2, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 121, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason {
+  min-height: 900px;
+}
+
+/* line 123, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 71px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+}
+
+/* line 132, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason_block_text {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 138, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason_header {
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 146, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason_pack {
+  display: flex;
+  margin-top: 35px;
+}
+
+/* line 149, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason_pack .reason_img {
+  padding: 10px 26px 0 35px;
+}
+
+/* line 151, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason_pack .reason_text1 {
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 155, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.reason_pack .reason_text2 {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: justify;
+}
+
+/* line 162, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../maket/Teil-3/background.png") center center/cover no-repeat;
+}
+
+/* line 166, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_block {
+  margin: 0 auto;
+  padding: 5px 12px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+}
+
+/* line 172, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_block_text {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 178, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_header {
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 185, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil h3 {
+  margin-top: 19px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 191, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil .row {
+  margin-top: 32px;
+}
+
+/* line 193, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+}
+
+/* line 199, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_1 {
+  background: url("../maket/Teil-3/img_1.png") center center/cover no-repeat;
+}
+
+/* line 201, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_2 {
+  background: url("../maket/Teil-3/img_2.png") center center/cover no-repeat;
+}
+
+/* line 203, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_3 {
+  background: url("../maket/Teil-3/img_3.png") center center/cover no-repeat;
+}
+
+/* line 205, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_4 {
+  background: url("../maket/Teil-3/img_4.png") center center/cover no-repeat;
+}
+
+/* line 207, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_5 {
+  background: url("../maket/Teil-3/img_5.png") center center/cover no-repeat;
+}
+
+/* line 209, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_6 {
+  background: url("../maket/Teil-3/img_6.png") center center/cover no-repeat;
+}
+
+/* line 211, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_text {
+  padding-top: 92px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 219, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_round {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  padding: 6px;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+/* line 235, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_round:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 241, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_round:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 14px;
+  background-color: #1eacc7;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 251, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.mobil_pack_round:hover:before, .mobil_pack_round:hover:after {
+  background-color: #ff5656;
+  transition: 0.5s all;
+}
+
+/* line 255, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.uber {
+  min-height: 896px;
+  padding: 57px;
+  background: url("../maket/Teil-4/background.png") center center/cover no-repeat;
+}
+
+/* line 259, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.uber_block {
+  margin: 0 auto;
+  padding: 5px 12px;
+  width: 112px;
+  height: 24px;
+  background-color: #ffffff;
+}
+
+/* line 265, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.uber_block_text {
+  color: #070716;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 271, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.uber_title {
+  margin-top: 32px;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 278, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.uber_subtitle {
+  margin-top: 19px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 284, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.uber_bild {
+  text-align: center;
+  padding: 58px;
+}
+
+/* line 287, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.uber_text {
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 138px;
+}
+
+/* line 295, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require {
+  min-height: 919px;
+  padding: 68px 0 84px 0;
+}
+
+/* line 298, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_block {
+  margin: 0 auto;
+  padding: 4px 13px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+}
+
+/* line 304, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_block_text {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 310, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_header {
+  margin-top: 33px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 317, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_pack {
+  margin: 33px 0;
+}
+
+/* line 319, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_pack_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 321, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_title {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* line 326, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 330, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  color: #222222;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 337, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_list li::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 13px;
+  transform: translateY(-50%);
+  width: 21px;
+  height: 20px;
+  background: url("../maket/Teil-5/blau_ja.png") center center/cover no-repeat;
+}
+
+/* line 347, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require_descr {
+  color: #1ca8c3;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 352, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+/* line 355, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.require .warning li::before {
+  content: '';
+  background: url("../maket/Teil-5/rot_ja.png") center center/cover no-repeat;
+}
+
+/* line 359, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.karte {
+  min-height: 717px;
+  background: url("../maket/Teil-6/background.png") center center/cover no-repeat;
+  padding: 49px 0;
+}
+
+/* line 363, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.karte_block {
+  margin: 0 auto;
+  padding: 4px 13px;
+  width: 76px;
+  height: 24px;
+  background-color: #ffffff;
+}
+
+/* line 369, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.karte_block_text {
+  color: #070716;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 375, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.karte_title {
+  margin-top: 32px;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 382, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.karte_subtitle {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 388, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.karte_link {
+  margin-top: 486px;
+  text-align: center;
+}
+
+/* line 391, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.karte_link_text {
+  text-decoration: none;
+  color: #1fbad6;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 398, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom {
+  position: relative;
+  min-height: 156px;
+  padding-top: 14px;
+}
+
+/* line 402, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_blauline {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 407, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box1 > div {
+  width: 33%;
+  width: 364px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 34px;
+}
+
+/* line 413, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box1 > div_line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 416, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box1 > div_line1 a {
+  text-decoration: none;
+}
+
+/* line 418, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box1 > div_line1 a .bottom_first_text {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 424, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box1 > div_line1 a .bottom_first_text_2 {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+/* line 431, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box2 {
+  width: 390px;
+  height: 10px;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+
+/* line 436, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box2_line2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 439, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box2_line2 a {
+  text-decoration: none;
+}
+
+/* line 441, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_box2_line2 a .bottom_second_text {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 447, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom a {
+  text-decoration: none;
+}
+
+/* line 449, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom a .bottom_third_text {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 19px;
+}
+
+/* line 458, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_blackline {
+  width: 100%;
+  height: 8px;
+  background-color: #070716;
+  margin-top: 31px;
+}
+
+/* line 463, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_linkbox1 > div {
+  width: 33%;
+  position: absolute;
+  margin-left: -60px;
+  margin-top: -100px;
+  width: 153px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 472, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_general.sass */
+.bottom_linkbox2 > div {
+  width: 33%;
+  position: absolute;
+  margin-left: 1425px;
+  margin-top: -100px;
+  width: 298px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  /* line 4, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  nav .menu_item {
+    padding-right: 20px;
+  }
+  /* line 6, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  nav .menu_link {
+    font-size: 13px;
+  }
+  /* line 10, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 13, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_pack {
+    align-items: flex-start;
+  }
+  /* line 16, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_block_text {
+    width: 300px;
+  }
+  /* line 18, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .bottom {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 24, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  nav .menu_item {
+    padding-right: 8px;
+  }
+  /* line 26, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  nav .menu_link {
+    font-size: 10px;
+  }
+  /* line 31, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 33, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 35, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 37, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_btn {
+    width: 100%;
+    height: 36px;
+    margin-top: 22px;
+  }
+  /* line 42, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 44, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 47, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_pack {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 50, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_img {
+    margin-right: 0;
+  }
+  /* line 53, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_block_text {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 57, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .mobil_block {
+    width: 100%;
+  }
+  /* line 60, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .uber_block {
+    width: 100%;
+  }
+  /* line 63, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .bottom_linkbox2 {
+    left: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 69, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 83, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+  }
+  /* line 86, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 89, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 97, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 105, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 107, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 109, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 111, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 113, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 115, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .xs-visible {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  /* line 125, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 133, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 138, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 140, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .header {
+    height: 30px;
+  }
+  /* line 142, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 145, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 147, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 149, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 154, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .subheader_btn {
+    width: 116px;
+    height: 28px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 160, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 73px 0 35px 0;
+  }
+  /* line 163, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 165, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 169, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30;
+  }
+  /* line 174, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .promo_btn {
+    width: 216px;
+    height: 56px;
+    margin-top: 72px;
+  }
+  /* line 178, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 180, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason {
+    padding: 22px 0 36px 0;
+  }
+  /* line 182, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_pack {
+    margin-top: 26px;
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 186, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_img {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 189, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_header {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 193, ../../IT/HTML/2 часть/UBER_TEST/project/ADAPT/src/sass/_media.sass */
+  .reason_text {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
